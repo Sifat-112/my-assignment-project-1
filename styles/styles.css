@@ -141,9 +141,46 @@ nav ul li a{
     border-radius: 12px;
     margin-right: 60px;
 }
+.know-title{
+    color: #30B868;
+    margin-bottom: 16px;
+}
 .know-title-1{
     font-size: 48px;
     font-weight: bold;
     color: #001931;
     padding-bottom: 16px;
+}
+.k-text{
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+.list-item{
+     gap: 14px; 
+     font-size: 16px;
+     font-weight: 500;   
+}
+.list-item li{
+    list-style: none;
+    display: flex;
+    margin-bottom: 16px;
+}
+.Early-Access-Section{
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    margin: 0px 120px 120px 120px;
+    /* justify-content: center; */
+    /* align-items: center;
+    align-content: center; */
+    justify-items: center;
+    text-align: center;
+    padding: 80px 40px;
+}
+.e-a-section{
+    padding-top: 16px;
+    padding-bottom: 24px;
+    margin: 0px;
+}
+.e-a-section-1{
+    padding-top: 16px;
 }
