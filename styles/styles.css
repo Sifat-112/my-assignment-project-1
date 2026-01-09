@@ -3,7 +3,15 @@
     margin: 0;
     padding: 0;
 }
-
+.dim {
+    height: 18px;
+    width: 18px;
+}
+.ban{
+    display: flex;
+    
+    
+}
 
 /* shared content  */
 .inter-personal-font {
@@ -14,6 +22,10 @@
 }
 a{
     text-decoration: none;
+}
+a :hover{
+    background-color: #F95555;
+
 }
 .text-color{
     color: #000000;
@@ -31,6 +43,11 @@ a{
 .btn-e{
     display: flex;
     justify-content: center;
+    /* background-color: #30B868; */
+    align-content: center;
+    justify-items: center;
+    gap: 10px;
+
     
 }
 .btn-d{
@@ -90,20 +107,27 @@ nav ul li a{
 .banner-content{
     justify-items: center;
 }  
-
+.btn-problem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
 .banner-sort-title {
     padding: 8px 12px;
+    font-size: 16px;
     font-weight: 500;
     color: #30B868;
     border-radius: 1000px;
     text-align: center;   
     background-color: #FFFFFF;
-    width: 280px;
     align-items: center;
     margin-bottom: 16px;
     display: flex;
     gap: 10px;
     align-content: center;
+    justify-content: center;
 }
 .banner-title{
     font-size: 72px;
@@ -196,6 +220,7 @@ nav ul li a{
     list-style: none;
     display: flex;
     margin-bottom: 16px;
+    gap: 10px;
 }
 .Early-Access-Section{
     background-color: #F7F6F2;
