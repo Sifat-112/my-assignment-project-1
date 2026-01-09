@@ -92,7 +92,8 @@ nav ul li {
 nav ul li a{
     text-decoration: none;
     text-align: center;
-    font-weight: 500px;
+    font-size: 16PX;
+    font-weight: 500;
     line-height: 152%;
 }
 .banner{
