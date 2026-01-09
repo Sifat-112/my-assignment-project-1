@@ -3,12 +3,17 @@
     margin: 0;
     padding: 0;
 }
+
+
 /* shared content  */
 .inter-personal-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+a{
+    text-decoration: none;
 }
 .text-color{
     color: #000000;
@@ -19,14 +24,37 @@
     line-height: 20px;
     color: #627382;
 }
+.btn-c{
+    display: flex;
+    gap: 10px;
+}
+.btn-e{
+    display: flex;
+    justify-content: center;
+    
+}
 .btn-d{
     background-color: #30B868;
     font-weight: 600;
     color: #FFFFFF;
     padding: 12px 16px;
-    border-radius: 4px;
+    border-radius: 4px ;
     border: none;
+    /* text-align: center; */
+    align-items: center;
+}
+.btn-d-1{
+    background-color: #30b86900;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 4px  ;
+    border: 1px solid white;
     text-align: center;
+    display:    flex ;
+    align-items: center;
+    justify-content: center;
+
 }
 /* Nevigation section start */
 nav{
@@ -70,9 +98,12 @@ nav ul li a{
     border-radius: 1000px;
     text-align: center;   
     background-color: #FFFFFF;
-    width: 229px;
+    width: 280px;
     align-items: center;
     margin-bottom: 16px;
+    display: flex;
+    gap: 10px;
+    align-content: center;
 }
 .banner-title{
     font-size: 72px;
@@ -101,6 +132,7 @@ nav ul li a{
     font-weight: bold;
     color: #001931;
     padding-top: 48px;
+    padding-bottom: 16px;
 }
 .items{
     display: flex;
@@ -169,9 +201,9 @@ nav ul li a{
     background-color: #F7F6F2;
     border-radius: 12px;
     margin: 0px 120px 120px 120px;
-    /* justify-content: center; */
-    /* align-items: center;
-    align-content: center; */
+    justify-content: center; 
+    align-items: center;
+    align-content: center; 
     justify-items: center;
     text-align: center;
     padding: 80px 40px;
@@ -186,22 +218,38 @@ nav ul li a{
 }
 footer{
     padding: 120px 120px 30px 120px;
-    background-color: #00193175;
+    background-color: #001931;
 }
 .footer-contant{
     display: flex;
     justify-content: space-between;
+    color: #FAFAFA;
     padding-bottom: 80px;
 }
+.footer-social a{
+    align-items: left;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    gap: 10px;
 
-
+}
+.s-logo{
+    display: flex;
+    gap: 16px;
+}
+.s-logo a{
+    padding-top: 10px;
+    
+}
 hr {
   border: none;
   height: 2px;
-  background: #1e293b;
+  background: #4d535c;
 }
 .last-contant{
     margin-top: 30px;
+    color: #FAFAFA;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
